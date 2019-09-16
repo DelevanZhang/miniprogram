@@ -1,0 +1,13 @@
+.goods {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  border: 1px solid red;
+}
+
+.goods-item {
+  width: 48%;
+  border: 1px solid yellow;
+  padding-bottom: 85rpx;
+  position: relative;
+}

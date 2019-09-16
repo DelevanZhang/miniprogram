@@ -1,0 +1,9 @@
+<!--components/z-goods-item/z-goods-item.wxml-->
+<view class="goods-item">
+  <image class="img" src="{{list.show.img}}" mode="widthFix" />
+  <view class="info">
+    <view class="title">{{list.title}}</view>
+    <view>{{list.price}}</view>
+    <view>{{list.cfav}}</view>
+  </view>
+</view>

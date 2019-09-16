@@ -1,0 +1,16 @@
+.tab-control {
+  display: flex;
+} 
+.tab-item {
+  flex: 1;
+  text-align: center;
+  font-size:32rpx;
+}
+.tab-item.active text {
+   border-bottom: 4rpx solid #ff5777;
+   padding: 4rpx;
+}
+.active {
+  color: #ff5777;
+}
+

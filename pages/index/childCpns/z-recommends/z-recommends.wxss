@@ -1,0 +1,19 @@
+.recommend {
+  display:flex;
+  justify-content: center;
+  margin-top:40rpx;
+}
+.recommend-item{
+  text-align: center;
+  border-bottom: 16rpx solid #ccc;
+  padding-bottom: 40rpx;
+}
+.recommend-item image {
+   width: 160rpx;
+   height: 160rpx;
+   padding:0 5px;
+}
+.recommend-item view {
+  font-size:30rpx;
+  color:#555;
+}

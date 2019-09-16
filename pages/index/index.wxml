@@ -1,0 +1,14 @@
+<!-- 1.轮播展示 -->
+<z-swiper lists="{{banners}}" />
+<!-- 2.推荐数据 -->
+<z-recommend recommends="{{recommends}}" />
+<!-- 3.本周流行 -->
+<z-popular/>
+<!-- 4.tab-control -->
+<z-tab-control titles="{{titles}}" bind:tabclick="tabClick" />
+<!-- 5.流行 新款 精选 数据展示 -->
+<view class="goods">
+<block wx:for="{{goods[currentType].list}}" wx:key="{{index}}">
+<z-goods-item list="{{item}}" class="goods-item"/>
+</block>
+</view>
